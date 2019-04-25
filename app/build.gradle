@@ -12,9 +12,7 @@ android {
         versionName rootProject.ext.android.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        buildConfigField "boolean", "MODE_MARKET", String.valueOf(rootProject.ext.android.MODE_MARKET)
-        buildConfigField "boolean", "MODE_DEBUG", String.valueOf(rootProject.ext.android.MODE_DEBUG)
-        buildConfigField "boolean", "MODE_LOGGER", String.valueOf(rootProject.ext.android.MODE_LOGGER)
+
 
     }
     buildTypes {

@@ -8,16 +8,6 @@ import com.xiongliang.module_article.base.ArticleInitLogic;
 
 public class ComponentApplication extends BaseApplication {
     @Override
-    public void onCreate() {
-        super.onCreate();
-        boolean isDebugModel = BuildConfig.MODE_MARKET ? false : BuildConfig.MODE_DEBUG;
-        boolean isLogModel = BuildConfig.MODE_MARKET ? false : BuildConfig.MODE_LOGGER;
-
-        AppCore.enableDebug(isDebugModel);
-        AppCore.enableLogger(isLogModel);
-    }
-
-    @Override
     protected void initLogic() {
         registerApplicationLogin(MainInitLogic.class);
         registerApplicationLogin(ArticleInitLogic.class);

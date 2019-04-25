@@ -2,6 +2,7 @@ package com.xiongliang.common_base.base;
 
 import android.app.Application;
 
+import com.xiongliang.common_base.BuildConfig;
 import com.xiongliang.common_util.AppCore;
 
 import java.util.ArrayList;
@@ -15,7 +16,11 @@ public abstract class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        AppCore.init(this);
+        boolean isDebugModel = BuildConfig.MODE_MARKET ? false : BuildConfig.MODE_DEBUG;
+        boolean isLogModel = BuildConfig.MODE_MARKET ? false : BuildConfig.MODE_LOGGER;
+
+        AppCore.init(this,isDebugModel);
+        AppCore.enableLogger(isLogModel);
         initLogic();
         logicCreate();
     }
