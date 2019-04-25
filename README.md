@@ -1,7 +1,7 @@
-##概述
+## 概述
 组件化项目实践
 
-##架构图
+## 架构图
 ![](documents\images\架构图.png)
 
 ## 环境配置
@@ -25,16 +25,16 @@ MODE_LOGGER      : true,
 MODE_MARKET      : false
 ```
 
-##组件切换说明
+## 组件切换说明
 在需要对业务进行独立开发的情况下，可能需要切换成标准的`application`运行
 在单独的组件目录下，有一个名为`gradle.properties`配置文件
 ```
 isModule = true
 ````
 
-##组件说明
+## 组件说明
 
-###组件配置文档
+### 组件配置文档
 第一步:
 以`module_article`为例,修改项目根目录下`gradle.properties`文件`
 ```
