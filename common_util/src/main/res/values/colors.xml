@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--APP的主题色-->
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FF5252</color>
+
+
+    <color name="color_transparent">#00000000</color>
+
+    <color name="color_1D1C21">#1D1C21</color>
+    <color name="color_353535">#353535</color>
+    <color name="color_6b8a76">#6B8A76</color>
+    <color name="color_e3eed0">#E3EED0</color>
+    <color name="color_7c6e89">#7C6E89</color>
+    <color name="color_b1a4c6">#B1A4C6</color>
+    <color name="color_f9c9f5">#F9C9F5</color>
+    <color name="color_e5c7e9">#E5C7E9</color>
+    <color name="color_dcf6fa">#DCF6FA</color>
+    <color name="color_aeb8c9">#AEB8C9</color>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyPratice</string>
+    <string name= "app_article">进入ArticleActivity</string>
+    <string name="app_question">进入QuestionActivity</string>
+</resources>

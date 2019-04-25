@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_332"
+    android:background="@drawable/radius_20_color_white_shape">
+
+    <com.xiongliang.common_view.RoundAngleImageView
+        android:id="@+id/articles_iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_240"
+        android:scaleType="centerCrop"
+        android:src="@color/color_black_10"
+        app:roundHeight="@dimen/px_20"
+        app:roundWidth="@dimen/px_20" />
+
+    <TextView
+        android:id="@+id/articles_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_92"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px_24"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/px_32"
+        tools:text="What Sign Do You Attract?" />
+
+</FrameLayout>

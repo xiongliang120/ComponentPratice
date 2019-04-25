@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">common_network</string>
+
+
+    <!--错误提示-->
+    <string name="error_resp_null">Request response is empty!</string>
+    <string name="error_unknown_host">Network connection error!</string>
+    <string name="error_socket_timeout">Request data timeout!</string>
+    <string name="error_connect">The network connection is abnormal!</string>
+    <string name="error_http_resp">Request data failed!</string>
+    <string name="error_data_parse">Data parsing error!</string>
+    <string name="error_data_null">The data content is empty!</string>
+    <string name="error_data_format">Data format error!</string>
+
+        
+    <string name="error_network">Network exception: %d</string>
+    <string name="error_json_parse">Json parsing exception: %s</string>
+</resources>
