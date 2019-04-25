@@ -2,7 +2,7 @@
 组件化项目实践
 
 ## 架构图
-![](documents\images\架构图.png)
+![](documents/images/架构图.png)
 
 ## 环境配置
 gradle 插件版本:
@@ -43,11 +43,11 @@ isModule = true
 
 第二步:
 在`src/main` 目录下, 新建`module`文件夹,用于存放`application模式`的清单文件
-![](documents\images\图片20190425175950.png)
+![](documents/images/图片20190425175950.png)
 
 完成以上两个步骤,基本完成了组件的配置
 
-### [common-base](documents\common_base.md)
+### [common-base](documents/common_base.md)
 作为项目最核心的基本组件，包含一些核心类`Appcore`的初始化,以及部分核心的工具类
 
 
