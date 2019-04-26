@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center_horizontal">
         <Button
             android:id="@+id/article"
             android:layout_width="@dimen/px_300"
@@ -25,5 +25,18 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="@string/app_question"/>
+
+        <Button
+            android:id="@+id/fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps = "false"
+            android:text="加载Article组件中Fragment"/>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_marginTop="@dimen/px_40"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_400"></FrameLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
